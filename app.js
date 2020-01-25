@@ -1,3 +1,10 @@
+function escapeKeyListener(evt){
+    if(evt.keycode==27 && app.modalOpen){
+        app.modalOpen = false;
+    }
+}
+
+
 var app = new Vue({
     el: '#app',
     data : {
@@ -14,7 +21,7 @@ var app = new Vue({
         prices      : sample.prices,
         contracted  : true,
         modalOpen   : false,
-    },
+    }, 
     watch: {
         modalOpen : function(){
             const className = 'modal-open';
@@ -25,7 +32,21 @@ var app = new Vue({
             }
 
         }
+    },
+
+    methods: {
+        escapeKeyListener: function(e) {
+        if (e.keyCode === 27 && this.modalOpen) {
+                this.modalOpen = false;
+            }
+        }
+    },
+    // defined escapeKeyListener
+    created: function() {
+        document.addEventListener('keyup', this.escapeKeyListener);
     }
+    
 });
 
-console.log(app._data.modalOpen)
+
+// console.log(escapeKeyListener(evt))
