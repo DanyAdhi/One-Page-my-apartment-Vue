@@ -44,6 +44,9 @@ var app = new Vue({
     // defined escapeKeyListener
     created: function() {
         document.addEventListener('keyup', this.escapeKeyListener);
+    },
+    destroyed: function(){
+        document.removeEventListener('keyup', this.escapeKeyListener);
     }
     
 });
