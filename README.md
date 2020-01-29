@@ -19,5 +19,4 @@ This is the first page I made with vue js framework, this is a simple page that 
 
 ## Built With
 * [Vue](https://vue.org/)
-* [HTML](developer.mozilla.org › docs › Web › HTML)
 * [Font Awesome](https://fontawesome.com/v4.7.0/)
