@@ -15,6 +15,16 @@
 ## Introduction
 This is the first page I made with vue js framework, this is a simple page that I made for learning to use vue js framework for the web frontend.
 
+## Preview
+<p align='center'>
+  <span>
+    <img src='https://github.com/DanyAdhi/My-apartment/blob/master/preview/Screenshot%20My%20Apartment.png' width=100% />
+    ![gif](https://github.com/DanyAdhi/My-apartment/blob/master/preview/My%20Apartment%20gif.gif)
+  </span>
+</p>
+
+
+
 
 
 ## Built With
