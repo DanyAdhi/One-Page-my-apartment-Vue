@@ -19,11 +19,12 @@ This is the first page I made with vue js framework, this is a simple page that 
 <p align='center'>
   <span>
     <img src='https://github.com/DanyAdhi/My-apartment/blob/master/preview/Screenshot%20My%20Apartment.png' width=100% />
-    ![gif-page](https://github.com/DanyAdhi/My-apartment/blob/master/preview/My-Apartment-gif.gif)
   </span>
 </p>
 
 
+## GIF
+![gif-page](https://github.com/DanyAdhi/My-apartment/blob/master/preview/My-Apartment.gif)
 
 
 
